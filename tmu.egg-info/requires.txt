@@ -1,0 +1,6 @@
+cffi>=1.0.0
+numpy
+pandas
+scikit-learn
+tqdm
+requests
