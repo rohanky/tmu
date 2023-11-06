@@ -11,6 +11,7 @@ test/test_imports.py
 tmu/__init__.py
 tmu/logging_example.json
 tmu/tmulib.cpython-310-darwin.so
+tmu/tmulib.cpython-310-x86_64-linux-gnu.so
 tmu/tools.py
 tmu.egg-info/PKG-INFO
 tmu.egg-info/SOURCES.txt

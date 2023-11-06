@@ -85,7 +85,7 @@ Y_test = df_test_sub['coarse_label'].values
 # Define the available labels
 available_labels = list(set(Y_train))
 # Define the percentage of noise you want (e.g., 10%)
-percentage_noise = 75
+percentage_noise = 50
 
 # Calculate the number of elements to change
 num_elements_to_change = int(len(Y_train) * percentage_noise / 100)
@@ -190,7 +190,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--num_clauses", default=2000, type=int)
     parser.add_argument("--T", default=1500, type=int)
-    parser.add_argument("--s", default=15.0, type=float)
+    parser.add_argument("--s", default=10.0, type=float)
     parser.add_argument("--device", default="GPU", type=str)
     parser.add_argument("--weighted_clauses", default=False, type=bool)
     parser.add_argument("--epochs", default=10, type=int)
